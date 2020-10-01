@@ -2,10 +2,10 @@
 /*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
 
 
-.grid-2{
+/*.grid-2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-}
+}*/
 
 body{
     margin: 0;
