@@ -269,6 +269,18 @@ section p {
   width: 100%;
 }
 
+.map-container,
+.map-container iframe {
+  margin: 5em auto;
+  width: 300px;
+  height: 300px;
+  background: url(C:\Users\rache\Documents\GitHub\RachelAiko.github.io\images\SECLogo.png) no-repeat center center;
+  border: 0.25em solid #962db1;
+  border-radius: 50%;
+  overflow: hidden;
+} 
+
+
 /*Education page*/
 .education {
   background: rgba(8, 8, 8, 0.75);
@@ -279,16 +291,7 @@ section p {
   background: rgba(8, 8, 8, 0.75);
 }
 
-/* .map-container,
-.map-container iframe {
-  margin: 2em auto;
-  width: 300px;
-  height: 300px;
-  background: url(https://media-exp1.licdn.com/dms/image/C4D03AQGYc8bBvXuBnw/profile-displayphoto-shrink_400_400/0/1575502181996?e=1643241600&v=beta&t=YofvBc7XUtbITY9Qhs0iJ8dyIEfrVvyxfmTKuPcrPO4) no-repeat center center;
-  border: 0.25em solid #bd34df;
-  border-radius: 5%;
-  overflow: hidden;
-} */
+
 
 .up {
   position: relative;
