@@ -264,21 +264,21 @@ section p {
   height: 100px;
 }
 
-.client-box img {
+.client .eilogo {
   display: block;
   width: 100%;
 }
 
-.map-container,
+/* .map-container,
 .map-container iframe {
   margin: 5em auto;
   width: 300px;
   height: 300px;
-  background: url(C:\Users\rache\Documents\GitHub\RachelAiko.github.io\images\SECLogo.png) no-repeat center center;
+  background: src= "C:\Users\rache\Documents\GitHub\RachelAiko.github.io\images\SECLogo.png" no-repeat center center;
   border: 0.25em solid #962db1;
   border-radius: 50%;
   overflow: hidden;
-} 
+}  */
 
 
 /*Education page*/
