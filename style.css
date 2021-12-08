@@ -267,6 +267,7 @@ section p {
 .client .eilogo {
   display: block;
   width: 100%;
+  object-fit: contain;
 }
 
 /* .map-container,
