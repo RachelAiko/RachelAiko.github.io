@@ -5,12 +5,13 @@
   <title>Rachel Royka</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/9d04a42d52.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
- 
+
   <!-----------------------------------Background Image Setup--------------------------------------->
   <style>
     body {
-      background-image: url('https://img.freepik.com/free-vector/technology-wire-mesh-network-connection-digital-background_1017-28407.jpg?size=626&ext=jpg');
+      background-image: url('https://i.gifer.com/4NB4.gif');
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
@@ -20,36 +21,42 @@
 
 <body>
   <!--------------------------------------Navagation Bar--------------------------------------------->
-  <input type="checkbox" id="checkbox" /><label class="fa fa-bars fa-2x" for="checkbox"></label>
-  <nav role='navigation'>
-    <ul class="nav">
-      <li><a href="#page-home">Home</a></li>
-      <li><a href="#page-contact">About Me</a></li>
-      <li><a href="#page-about">Projects</a></li>
-      <li><a href="#page-clients">Expereicne<br>& Involvement</a></li>
-      <li><a href="#page-education">Education</a></li>
-     
+  <div id="myNavBar" class="navbar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#page-home">Home</a>
+    <a href="#page-contact">About Me</a>
+    <a href="#page-about">Projects</a>
+    <a href="#page-clients">Expereicne & Involvement</a>
+    <a href="#page-education">Education</a>
+    <ul class="soc-media">
+      <li><a href="https://www.linkedin.com/in/rachelamatthews/" class="fa fa-linkedin"></a></li>
+      <li><a href="https://github.com/RachelAiko" class="fa fa-github"></a></li>
     </ul>
-  </nav>
+  </div>
+
+
+  <button class="openbtn" onclick="openNav()">&#9776;</button>
   <main class="wrapper">
-    <div class="overlay"></div>
-    <!-------------------------------------Footer----------------------------------------------------->
-    <h1>*****Under Construction*****</h1>
+
+    <!------------------------------------- Main Page Display ----------------------------------------------------->
     <center>
       <i class="fas fa-code fa-3x white"></i>
       <h1>Rachel A Royka</h1>
       <p>Software Engineering Student</p>
       <p>Florida Gulf Coast University</p>
-      <a href="https://www.linkedin.com/in/rachelamatthews/"><i class="fab fa-linkedin fa-2.5x white"></i></a>
-      <a href="https://github.com/RachelAiko"><i class="fab fa-github fa-2.5x white"></i></a>
+      <!--  <a href="https://www.linkedin.com/in/rachelamatthews/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/RachelAiko"><i class="fab fa-github fa-2.5x"></i></a> -->
     </center>
+
+    <div class="overlay"></div>
     <!-------------------------------------Landing/Home Page------------------------------------------->
     <section class="home" id="page-home">
     </section>
+     <!--------------------------------Projects Page----------------------------------------------->
     <section class="about" id="page-about">
       <div class="content">
+        <h1>Projects</h1>
         <div class="container">
-          <!--------------------------------Projects Page----------------------------------------------->
           <div class="team">
             <div class="member">
               <img
@@ -113,20 +120,19 @@
         <div class="map-container"></div>
         <center>
           <img
-                  src="https://se-images.campuslabs.com/clink/images/37d055bd-ba29-4877-9b1c-26b7593bd55fd4fb2432-e9f2-4944-a955-f28e9b8c5df9.png?preset=med-sq"
-                  alt="member_image"  width="250" height="250"><br>
-          <img
-                  src="https://odk.org/wp-content/uploads/2021/09/LOGOS-vert.jpg"
-                  alt="member_image"  width="250" height="250">
-         </center>
+            src="https://se-images.campuslabs.com/clink/images/37d055bd-ba29-4877-9b1c-26b7593bd55fd4fb2432-e9f2-4944-a955-f28e9b8c5df9.png?preset=med-sq"
+            alt="member_image" width="250" height="250"><br>
+          <img src="https://odk.org/wp-content/uploads/2021/09/LOGOS-vert.jpg" alt="member_image" width="250"
+            height="250">
+        </center>
       </div>
       </div>
     </section>
-     <!---------------------------------Education Page------------------------------------------>
-     <section class="education" id="page-education">
+    <!---------------------------------Education Page------------------------------------------>
+    <section class="education" id="page-education">
       <div class="content">
         <h1>Education<br></h1>
-      
+
       </div>
     </section>
     <!-----------------------------------About Me Page------------------------------------------->
@@ -135,13 +141,17 @@
         <h1>About Me</h1>
         <!-- <div class="map-container"></div> -->
         <center>
-        <img
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQGYc8bBvXuBnw/profile-displayphoto-shrink_400_400/0/1575502181996?e=1643241600&v=beta&t=YofvBc7XUtbITY9Qhs0iJ8dyIEfrVvyxfmTKuPcrPO4"
-                alt="member_image">
-       </center>
-        <p> I am currently a Software Engineering student enrolled in the U.A. Whitaker College of Engineering at Florida Gulf Coast University. I have a passion for learning computer technology and being active in my community. I get to pursue both of these passions through my position as a Learning Assistant and as Outreach Coordinator for the FGCU Software Engineering Club.</br></p>
-          ​
-         <p> I am currently in search of an internship position that will allow me to improve my current programming and teamwork skills. From this position, I also seek the opportunity to learn new skills for future use.</p>
+          <img
+            src="https://media-exp1.licdn.com/dms/image/C4D03AQGYc8bBvXuBnw/profile-displayphoto-shrink_400_400/0/1575502181996?e=1643241600&v=beta&t=YofvBc7XUtbITY9Qhs0iJ8dyIEfrVvyxfmTKuPcrPO4"
+            alt="member_image">
+        </center>
+        <p> I am currently a Software Engineering student enrolled in the U.A. Whitaker College of Engineering at
+          Florida Gulf Coast University. I have a passion for learning computer technology and being active in my
+          community. I get to pursue both of these passions through my position as a Learning Assistant and as Outreach
+          Coordinator for the FGCU Software Engineering Club.</br></p>
+        ​
+        <p> I am currently in search of an internship position that will allow me to improve my current programming and
+          teamwork skills. From this position, I also seek the opportunity to learn new skills for future use.</p>
       </div>
     </section>
   </main>
