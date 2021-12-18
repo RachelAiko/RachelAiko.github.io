@@ -380,3 +380,8 @@ section p {
   box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
 }
 
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #31b0d5;
+}
+
