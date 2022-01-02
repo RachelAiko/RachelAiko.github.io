@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: borde-box;
   text-decoration: none;
   font-family: "Poppins";
 }
@@ -18,7 +18,10 @@ body {
 
  img{
    border-radius: 8px;
+   width: 250px;
+   height: 250px;
  }
+
 .container .team {
   width: auto;
   display: flex;
@@ -95,9 +98,15 @@ h3 {
   color: white;
 }
 
+h4 {
+  font-size: 1.25em;
+  color: white;
+}
+
 p {
   font-size: 1.25em;
   color: white;
+  font: 16px "Lobster", serif;
 }
 
 /*BASE*/
@@ -382,6 +391,6 @@ section p {
 
 /* Solid border */
 hr.solid {
-  border-top: 3px solid #31b0d5;
+  border-top: 5px solid #31b0d5;
 }
 
